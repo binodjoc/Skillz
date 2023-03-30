@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    padding: 18px;
+    background-color:#1E293B;;
+    color: white;
+}
+
+.left {
+    width: 50%;
+    font-size: xx-large;
+    padding-left: 12px ;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    padding: 1px 15px;
+    font-size: large;
+}
+
+.right ul {
+    display: flex;
+}
+
+.right ul li {
+    padding-right: 8px;
+    list-style: none;
+}
+
+.leftbanner {
+    width: 50%;
+    line-height: 37.5px;
+    padding: 16px;
+    font-size: x-large;
+}
+
+.main-banner {
+    display: flex;
+    background-color: #1E293B;
+    color: white;
+    padding: 9px;
+    justify-content: space-between;
+    height: auto;
+    
+}
+
+.rightbanner img{width:81%;
+transform: translateY(20%);}
+ 
+.search {
+    padding: 5px 67px;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 2px;
+}
+
+
+h2{font-size: xx-large;}
+
+.bodybanner {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 63px 12px;
+    text-align: center;
+}
+.logo{border:2px solid gainsboro;
+}
+
+.maincard{
+    padding:18px 8px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 10px;
+align-items: flex-start;
+padding: 57px 8px
+}
+
+.card {
+    background-color: #1E293B;
+    padding: 10px 5px;
+    color: white;
+    border-radius: 10px;
+  }
+.info{display: grid;
+grid-template-columns: 1fr 2.5fr;
+}
+
+  .card img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .footer{
+    background-color:#1E293B;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 20px;
+
+  }
+
+  .footer ul{list-style: none;
+    font-size: larger;
+  }
+
+  .third-fot{
+    font-size: xx-large;
+  }
+
+  @media (max-width: 700px){
+  .bodybanner{
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 34px;
+}
+  }
